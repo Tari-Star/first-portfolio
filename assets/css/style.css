@@ -1,46 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    color:white;
-    background-color: #ff9999;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  background-color: #075f77;
+  margin:auto;
 }
 header {
-    padding: 40px 35px;
-    background-color:#ff6666;
-    display:flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
+  padding: 40px 35px;
+  background: linear-gradient(to top left, #ccffcc 0%, #3366cc 100%);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 header h1 {
-    font-weight: bold;
-    font-size: 60px;
+  font-weight: bold;
+  font-size: 60px;
 }
 header nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 header a {
-text-decoration-style:double;
-color: white;
-font-size:30px;
-margin-right:60px;
+  text-decoration-style: wavy;
+  color: white;
+  font-size: 30px;
+  margin-right: 60px;
 }
-.intro  {
-    
-    display: flex;
-    justify-content: space-between;
-    } 
-.intro img {
-    width:250px;
-    height: auto;
-    border-style: solid;
-    border-width: 5px;
-    border-color:#ff6666;
-    } 
-    .intro p {
-    color:#993333;
-    width: 40%;
-    font-size: 30px;
-    }
-    .intro div {
-        margin: 0 auto;
-    }
-    
+header img {
+  width: 250px;
+  height: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+}
+
+/* ABOUT ME SECTION */
+
+.work-container {
+  display: flex;
+  justify-content:space-between;
+}
+.work h3 {
+  font-size: 30px;
+}
+.work-container img {
+    height: 600px;
+  width: 900px;
+  border: solid;
+  border-radius: 25px;
+  border-color: whitesmoke;
+  margin-right: 30px;
+}
